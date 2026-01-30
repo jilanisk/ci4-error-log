@@ -1,5 +1,5 @@
 {
-  "name": "yourvendor/ci4-log-viewer",
+  "name": "jilanisk/ci4-log-viewer",
   "description": "Production-grade log viewer for CodeIgniter 4",
   "type": "library",
   "license": "MIT",
@@ -9,7 +9,7 @@
   },
   "autoload": {
     "psr-4": {
-      "YourVendor\\LogViewer\\": "src/"
+      "jilanisk\\LogViewer\\": "src/"
     }
   },
   "extra": {
