@@ -3,20 +3,31 @@
   "description": "Production-grade log viewer for CodeIgniter 4",
   "type": "library",
   "license": "MIT",
+  "keywords": [
+    "codeigniter",
+    "codeigniter4",
+    "ci4",
+    "log-viewer",
+    "logs"
+  ],
+  "authors": [
+    {
+      "name": "Jilani Shaik",
+      "email": "jilanisk08@gmail.com"
+    }
+  ],
   "require": {
     "php": ">=8.0",
     "codeigniter4/framework": "^4.4"
   },
   "autoload": {
     "psr-4": {
-      "jilanisk\\LogViewer\\": "src/"
+      "LogViewer\\": "src/"
     }
   },
   "extra": {
     "codeigniter4": {
-      "discovery": {
-        "enabled": true
-      }
+      "discoverable": true
     }
   }
 }
