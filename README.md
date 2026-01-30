@@ -4,10 +4,10 @@
 - JSON structured logs
 - IP allowlist
 - Tail pagination
-- Live auto-refresh
-- Search & level filters
-- Stack trace highlighting
-- Charts & analytics
+- Live auto-refresh(upcoming)
+- Search & level filters(upcoming)
+- Stack trace highlighting(upcoming)
+- Charts & analytics(upcoming)
 
 ## Installation
 composer require jilanisk/ci4-log-viewer
