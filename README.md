@@ -20,9 +20,7 @@ php spark logviewer:publish
 
 ## Security
 .env based IP allowlist
-
-## Screenshots
-(optional but powerful)
+ 
 
 ## Config (.env)
 LOGVIEWER_ALLOW_IPS=127.0.0.1
