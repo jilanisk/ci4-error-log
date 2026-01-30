@@ -1,0 +1,22 @@
+{
+  "name": "jilanisk/ci4-log-viewer",
+  "description": "Production-grade log viewer for CodeIgniter 4",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.0",
+    "codeigniter4/framework": "^4.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "jilanisk\\LogViewer\\": "src/"
+    }
+  },
+  "extra": {
+    "codeigniter4": {
+      "discovery": {
+        "enabled": true
+      }
+    }
+  }
+}
